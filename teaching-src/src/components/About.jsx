@@ -138,10 +138,11 @@ export const About = () => {
               with founders building vertical AI companies. Before that, he
               ran enterprise AI at three Fortune-100 retailers:{" "}
               <strong className="text-white">Senior Director, AI</strong> at
-              Target (forecasting, pricing, personalization, supply-chain AI
-              at $100B+ retail scale), then{" "}
+              Target (forecasting, pricing, supply-chain AI, and the
+              generative-AI platform at $100B+ retail scale), then{" "}
               <strong className="text-white">Group VP, Data Science</strong>{" "}
-              at Albertsons, and{" "}
+              at Albertsons (personalization, retail media,
+              experimentation), and{" "}
               <strong className="text-white">SVP, AI</strong> at QXO.
             </p>
             <p>

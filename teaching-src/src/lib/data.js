@@ -145,7 +145,7 @@ export const ACHIEVEMENTS = [
   {
     icon: "Building2",
     label: "Enterprise AI Leadership",
-    detail: "QXO (SVP AI) · Albertsons (Group VP DS) · Target (Sr Director AI)",
+    detail: "QXO (SVP AI) · Albertsons (Group VP DS, personalization · retail media · experimentation) · Target (Sr Director AI, forecasting · pricing · GenAI platform)",
   },
   {
     icon: "Landmark",

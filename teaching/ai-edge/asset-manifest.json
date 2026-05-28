@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/teaching/ai-edge/static/css/main.1bf31599.css",
-    "main.js": "/teaching/ai-edge/static/js/main.96624884.js",
+    "main.js": "/teaching/ai-edge/static/js/main.9dea8314.js",
     "index.html": "/teaching/ai-edge/index.html",
     "main.1bf31599.css.map": "/teaching/ai-edge/static/css/main.1bf31599.css.map",
-    "main.96624884.js.map": "/teaching/ai-edge/static/js/main.96624884.js.map"
+    "main.9dea8314.js.map": "/teaching/ai-edge/static/js/main.9dea8314.js.map"
   },
   "entrypoints": [
     "static/css/main.1bf31599.css",
-    "static/js/main.96624884.js"
+    "static/js/main.9dea8314.js"
   ]
 }

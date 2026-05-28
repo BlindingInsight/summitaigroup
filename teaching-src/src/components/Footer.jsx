@@ -76,13 +76,12 @@ export const Footer = () => {
               </a>
             </li>
             <li>
-              <a
-                href="mailto:enroll@skiyer.academy"
+              <span
                 data-testid="footer-email"
-                className="inline-flex items-center gap-2 hover:text-[#00D4FF] transition-colors"
+                className="inline-flex items-center gap-2 text-slate-500"
               >
-                <Mail size={15} /> enroll@skiyer.academy
-              </a>
+                <Mail size={15} /> Email coming soon
+              </span>
             </li>
             <li>
               <a

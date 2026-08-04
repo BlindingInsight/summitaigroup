@@ -1,1 +1,7 @@
 worktrees/
+
+# Agent tooling artifacts, written into repo roots by the pool and relay machinery
+.relay-enabled
+.relay-state.db
+.relay-inbox/
+.playwright-browsers/

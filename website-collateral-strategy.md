@@ -4,7 +4,7 @@ Last updated: 2026-03-19
 
 How to convert the use case inventory (43 entries across 10 themes) into website content that supports Summit AI Group's verticals.
 
-## Website Verticals (from customagents.ai)
+## Website Verticals
 
 The website should present capabilities by vertical, not by chronological career history. Each vertical gets a landing page with 3-5 featured case studies drawn from the use case inventory.
 

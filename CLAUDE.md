@@ -4,7 +4,7 @@ Repo-specific instructions for Claude Code in this repository. Universal policie
 
 ## Project Overview
 
-**custom-agents.ai** is Summit AI Group LLC's consulting services website. It's a static GitHub Pages site (plain HTML/CSS, no build step) that serves as the brand presence for Custom AI Agents, an enterprise AI consulting practice focused on building custom GenAI platforms, agentic workflows, and internal copilots.
+**summitaigroup.com** is Summit AI Group LLC's consulting services website. It's a static GitHub Pages site (plain HTML/CSS, no build step) that serves as the brand presence for Summit AI Group, an enterprise AI consulting practice focused on building custom GenAI platforms, agentic workflows, and internal copilots.
 
 When AI-for-metadata launches as a service (ADR-001: service-first model via subbu-ideas#25), this site becomes the primary sales channel.
 
@@ -31,17 +31,17 @@ Summit AI Group positions itself as a "product-led AI services company", not tra
 **Key dependencies:**
 - **AI-for-metadata (subbu-ideas#25)** — first productized service offering; when it launches, this site needs a dedicated service/sales page
 - **Manufacturing Twin (MT)** — reference implementation and case study source for the site
-- **summitaigroup.com** — corporate site (separate entity, not this repo)
+- **summitaigroup.com** — corporate site served by this repo
 
 **Strategy docs (in subbu-ideas on dev/coordinator branch):**
-- `strategy/custom-agents-next-gen-consulting.md` — full business strategy, pricing, GTM, competitive positioning
+- Consulting business strategy — pricing, GTM, competitive positioning (in subbu-ideas)
 - `strategy/ai-for-metadata-two-tracks.md` — the service to be sold through this site
 
 ## Architecture
 
 This is a **static site**, no framework, no build tool, no JavaScript dependencies.
 
-- **Hosting:** GitHub Pages with custom domain (`custom-agents.ai` via CNAME)
+- **Hosting:** GitHub Pages with custom domain (`summitaigroup.com` via CNAME)
 - **Styling:** Single `style.css` with Google Fonts (Playfair Display + Inter), dark mode via `prefers-color-scheme`, responsive breakpoints at 768px
 - **Navigation:** Shared `navbar.html` loaded via `fetch()` into each page's `<div id="navbar">`
 - **Contact form:** Formspree (`formspree.io/f/mvgbolpa`) with redirect to `thanks.html`
@@ -83,7 +83,7 @@ Push to `main` branch. GitHub Pages auto-deploys. Custom domain configured via `
 From the strategy doc's immediate actions list:
 - Add dedicated "AI for Private Equity" section/page
 - Write MT case study when MT demo is ready
-- Align messaging with summitaigroup.com when that site is polished
+- Keep messaging consistent across summitaigroup.com pages
 
 ## Cross-Repo Coordination
 
